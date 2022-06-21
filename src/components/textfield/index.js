@@ -2,7 +2,7 @@ import React from "react";
 import { TextfieldStyled } from "./styles";
 import { v4 as uuid } from 'uuid';
 
-const Button = ({type, value, name, label, handleChange, autoComplete = "off"}) => {
+const Textfield = ({type, value, name, label, handleChange, autoComplete = "off"}) => {
     const uniqueId = uuid();
 
     return (
@@ -21,4 +21,4 @@ const Button = ({type, value, name, label, handleChange, autoComplete = "off"}) 
     )
 }
 
-export default Button;
+export default Textfield;
